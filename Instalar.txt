@@ -1,0 +1,19 @@
+Pasos para instalar este módulo:
+
+1) Sube los archivos que están en la carpeta upload al directorio raíz de opencart
+
+2) Entra en el panel de administración como administrador, vete a Extensions > Payment, e instala el módulo que se llama BBVA
+
+3) Pulsa sobre Edit en el módulo BBVA, y configura los datos correspondientes a tu cuenta del TPV de BBVA:
+- ID Merchant
+- Terminal
+- Password
+
+Recomiendo poner la misma configuración que en la imagen Config.png
+
+4) En el panel de administracion, en Sistema, vete a propiedades. Edita tu tienda, y vete a la pestaña de Mail. Activa la opción "New Order Alert Mail".
+
+
+Si tienes algún problema o sugerencia, puedes plantearla en el foro de opencart o en los comentarios de la extensión, pero os aconsejo mandarme una copia del mensaje a alberto@gonzalezdedios.es
+
+Gracias por utilizar esta extension
