@@ -4,7 +4,7 @@ Install steps:
 
 2) Log into your admin account, go to Extensions > Payment, then install Redsys.
 
-3) Edit BBVA module and configure your Redsys account data:
+3) Edit Redss module and configure your Redsys account data:
 ID Merchant
 Terminal
 Password
@@ -15,7 +15,6 @@ There is an picture with default configuration Config.png
 
 
 If you have any problem or any suggestion, you can post it in opencart forum or you can post a comment in the extension webpage.
-But I advise you to send me a copy of the problem/suggestion to alberto.gdedios@ieee.org. I don´t receive notifications of new comments of the extension,
-and sometimes when I check the comments, someone has posted it some weeks ago.
+But I advise you to send me a copy of the problem/suggestion to alberto@gonzalezdedios.es
 
 Thank you for using this extension
