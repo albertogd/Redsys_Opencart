@@ -9,9 +9,10 @@ Alberto González de Dios (alberto@gonzalezdedios.es - <http://alberto.gonzalezde
 
 Version 1.0
 |- Multilanguage: English, Spanish, French, German (admin interface in english and spanish)
-|- Payment in euros: if credit/debit card is in another currency, the customer can pay in that other currency or in euros ("multidivisa")
+|- Payment in euros
+|- Multicurrency (Multidivisa): if credit/debit card is in another currency, the customer can pay in that other currency or in euros
 
 TODO:
 |- Recurrent Payments
 |- Returns
-|- Payment in other currencies without "multidivisa" (although is better "multidivisa")
+|- Payment in other currencies
