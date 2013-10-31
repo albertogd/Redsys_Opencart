@@ -4,7 +4,7 @@ class ControllerPaymentRedsys extends Controller {
 	protected function index() {	
 	
 		// Redsys Config
-		$this->data['action'] = $this->config->get('redsys_test') ? 'https://sis-t.redsys.es:25443/sis/realizarPago' : 'https://sis-t.redsys.es/sis/realizarPago';	
+		$this->data['action'] = $this->config->get('redsys_test') ? 'https://sis-t.redsys.es:25443/sis/realizarPago' : 'https://sis.sermepa.es/sis/realizarPago';	
 		$this->data['terminal'] = $this->config->get('redsys_terminal');
 		$this->data['merchantCode'] = $this->config->get('redsys_merchantCode');
 		$password = $this->config->get('redsys_password');
