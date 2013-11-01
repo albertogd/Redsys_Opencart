@@ -15,6 +15,9 @@ Redsys Payment gateway. It works with all spanish banks: La Caixa, BBVA, Bankia,
 =========
 Changelog
 =========
+Version 1.2
+|- Fixed Redsys Vqmod xml error on Opencart version previous to 1.5.6
+
 Version 1.1
 |- Fixed Production URL
 
@@ -47,6 +50,9 @@ Pasarela de pago Redsys para Opencart. Válido para todos los bancos de España:
 ====================
 Control de versiones
 ====================
+Version 1.2
+|- Arreglado un problema con el archivo xml de vqmod en versiones de Opencart inferiores a 1.5.6
+
 Version 1.1
 |- Arreglado problema en la URL de entorno de produccion
 

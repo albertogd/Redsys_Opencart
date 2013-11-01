@@ -134,14 +134,14 @@ class ControllerPaymentRedsys extends Controller {
 		// Confirm/Update order state
 		if($accepted) {
 			if (!$order_info['order_status_id'])
-				$this->model_checkout_order->confirm($order_id, $order_status_id, '', TRUE, $message_for_store_owner, TRUE);
+				$this->model_checkout_order->confirm($order_id, $order_status_id, '', TRUE, $message_for_store_owner);
 			else
 				$this->model_checkout_order->update($order_id, $order_status_id, '', TRUE);
 		}
 		else
 		{
 			if($this->config->get('redsys_process_failed') == 1)
-				$this->model_checkout_order->confirm($order_id, $order_status_id, '', TRUE, $message_for_store_owner, TRUE);
+				$this->model_checkout_order->confirm($order_id, $order_status_id, '', TRUE, $message_for_store_owner);
 			else
 			{
 				if($this->config->get('redsys_send_mail_to_cutomer'))
