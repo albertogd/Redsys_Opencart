@@ -3,6 +3,11 @@
 
 This is a free extension of Redsys Payment Gateway for Opencart.
 
+If you have any problem or any suggestion, you can post it in opencart forum or you can post a comment in the extension webpage.
+But I advise you to send me a copy of the problem/suggestion to me.
+
+Thank you for using this extension
+
 Alberto González de Dios (alberto@gonzalezdedios.es - <http://alberto.gonzalezdedios.es>)
 
 ============================================
@@ -15,6 +20,13 @@ Redsys Payment gateway. It works with all spanish banks: La Caixa, BBVA, Bankia,
 =========
 Changelog
 =========
+
+Version 1.3
+|- Added Completed SHA-1 digest
+|- Added an option to choose between Extended Completed SHA-1 and Completed SHA-1 signature
+|- Added a Manual
+
+
 Version 1.2
 |- Fixed Redsys Vqmod xml error on Opencart version previous to 1.5.6
 
@@ -39,38 +51,3 @@ TODO
 |- Payment in other currencies
 
 You can contribute with TODO section in github: https://github.com/albertogd/Redsys_Opencart
-
-============================================
-
-===========
-Descripción
-===========
-Pasarela de pago Redsys para Opencart. Válido para todos los bancos de España: La Caixa, BBVA, Bankia, Santander, Popular, Sabadell, Bankinter...
-
-====================
-Control de versiones
-====================
-Version 1.2
-|- Arreglado un problema con el archivo xml de vqmod en versiones de Opencart inferiores a 1.5.6
-
-Version 1.1
-|- Arreglado problema en la URL de entorno de produccion
-
-Version 1.0
-|- Multi-idioma: Inglés, Español, Francés y Alemán (la interfaz de administrador sólo en inglés y español)
-|- Moneda de pago en euros
-|- Multidivisa: si la tarjeta de credito está asociada a una cuenta con otra moneda, da la opción de pagar en euros o en esa moneda (se hace a nivel de Redsys, no del TPV)
-
-==========
-Requisitos
-==========
-|- Vqmod (https://code.google.com/p/vqmod/)
-
-=========
-Por hacer
-=========
-|- Pago recurrentes
-|- Devoluciones
-|- Pagos en otras monedas sin multidivisa
-
-Puedes contribuir con las cosas por hacer en github: https://github.com/albertogd/Redsys_Opencart

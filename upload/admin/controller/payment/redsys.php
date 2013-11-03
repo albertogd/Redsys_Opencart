@@ -23,10 +23,13 @@ class ControllerPaymentRedsys extends Controller {
 		$this->data['text_all_zones'] = $this->language->get('text_all_zones');
 		$this->data['text_yes'] = $this->language->get('text_yes');
 		$this->data['text_no'] = $this->language->get('text_no');
+		$this->data['text_digest_complete'] = $this->language->get('text_digest_complete');
+		$this->data['text_digest_extended'] = $this->language->get('text_digest_extended');
 		
 		$this->data['entry_merchantCode'] = $this->language->get('entry_merchantCode');
 		$this->data['entry_terminal'] = $this->language->get('entry_terminal');
 		$this->data['entry_password'] = $this->language->get('entry_password');
+		$this->data['entry_digest'] = $this->language->get('entry_digest');
 		$this->data['entry_test'] = $this->language->get('entry_test');
 		$this->data['entry_process_failed'] = $this->language->get('entry_process_failed');
 		$this->data['entry_send_mail_to_cutomer'] = $this->language->get('entry_send_mail_to_cutomer');
@@ -83,6 +86,12 @@ class ControllerPaymentRedsys extends Controller {
 			$this->data['redsys_password'] = $this->request->post['redsys_password'];
 		} else {
 			$this->data['redsys_password'] = $this->config->get('redsys_password');
+		}
+		
+		if (isset($this->request->post['redsys_test'])) {
+			$this->data['redsys_digest'] = $this->request->post['redsys_digest'];
+		} else {
+			$this->data['redsys_digest'] = $this->config->get('redsys_digest');
 		}
 		
 		if (isset($this->request->post['redsys_test'])) {

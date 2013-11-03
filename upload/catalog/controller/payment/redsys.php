@@ -43,8 +43,12 @@ class ControllerPaymentRedsys extends Controller {
 		// Button
 		$this->data['button_confirm'] = $this->language->get('button_confirm');
 		
-		// Signature
-		$message = $this->data['amount'] . $this->data['order'] . $this->data['merchantCode'] . $this->data['currency'] . $this->data['transaction_type'] . $this->data['merchant_url'] . $password;
+		// Signature: 0 = Complete SHA-1 || 1 = Extended Complete SHA-1
+		if($this->config->get('redsys_digest'))
+			$message = $this->data['amount'] . $this->data['order'] . $this->data['merchantCode'] . $this->data['currency'] . $this->data['transaction_type'] . $this->data['merchant_url'] . $password;
+		else
+			$message = $this->data['amount'] . $this->data['order'] . $this->data['merchantCode'] . $this->data['currency'] . $password;
+			
 		$this->data['signature'] = strtoupper(sha1($message));
 		
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/payment/redsys.tpl')) {

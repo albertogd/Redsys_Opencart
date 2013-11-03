@@ -14,7 +14,3 @@ There is an picture with default configuration Config.png
 4) Go to admin panel. In System, go to Settings. Edit your store, and go to Mail. Activate the option "New Order Alert Mail".
 
 
-If you have any problem or any suggestion, you can post it in opencart forum or you can post a comment in the extension webpage.
-But I advise you to send me a copy of the problem/suggestion to alberto@gonzalezdedios.es
-
-Thank you for using this extension

@@ -31,6 +31,18 @@
 				<td width="25%"><span class="required">*</span><?php echo $entry_password; ?></td>
 				<td><input type="text" name="redsys_password" value="<?php echo $redsys_password; ?>" size="21" /></td>
 			  </tr>
+			  <tr>
+				<td><?php echo $entry_digest; ?></td>
+				<td><select name="redsys_digest">
+					<?php if ($redsys_digest) { ?>
+					<option value="0"><?php echo $text_digest_complete; ?></option>
+					<option value="1" selected="selected"><?php echo $text_digest_extended; ?></option>
+					<?php } else { ?>
+					<option value="0" selected="selected"><?php echo $text_digest_complete; ?></option>
+					<option value="1"><?php echo $text_digest_extended; ?></option>
+					<?php } ?>
+				  </select></td>
+			 </tr>
 			 <tr>
 				<td><?php echo $entry_test; ?></td>
 				<td><select name="redsys_test">
