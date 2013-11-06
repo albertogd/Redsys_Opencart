@@ -21,6 +21,9 @@ Redsys Payment gateway. It works with all spanish banks: La Caixa, BBVA, Bankia,
 Changelog
 =========
 
+Version 1.4
+|- Added catalan language (only catalog and payment gateway)
+
 Version 1.3
 |- Added Completed SHA-1 digest
 |- Added an option to choose between Extended Completed SHA-1 and Completed SHA-1 signature

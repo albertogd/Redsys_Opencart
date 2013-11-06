@@ -25,6 +25,9 @@ class ControllerPaymentRedsys extends Controller {
 			
 			case 'en':	$this->data['language'] = '002';
 						break;
+			
+			case 'ca':	$this->data['language'] = '003';
+						break;
 						
 			case 'fr':	$this->data['language'] = '004';
 						break;

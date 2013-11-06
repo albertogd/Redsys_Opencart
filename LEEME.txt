@@ -20,6 +20,9 @@ Pasarela de pago Redsys para Opencart. Válido para todos los bancos de España: L
 Control de versiones
 ====================
 
+Version 1.4
+|- Añadido el idioma catalán (solo para el catalogo y la pasarela de pago)
+
 Version 1.3
 |- Añadido la opción de firma SHA-1 completa
 |- Añadida una opción para elegir entre la firma SHA-1 completa y la firma SHA-1 completa extendida
