@@ -21,6 +21,9 @@ Redsys Payment gateway. It works with all spanish banks: La Caixa, BBVA, Bankia,
 Changelog
 =========
 
+Version 1.5
+|- Fixed amount bug when currency decimals was not set to 2 decimals
+
 Version 1.4
 |- Added catalan language (only catalog and payment gateway)
 

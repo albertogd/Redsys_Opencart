@@ -20,6 +20,9 @@ Pasarela de pago Redsys para Opencart. Válido para todos los bancos de España: L
 Control de versiones
 ====================
 
+Version 1.5
+|- Corregido un error que se producía en la cantidad cuando el número de decimales de la moneda no estaba configurado a 2.
+
 Version 1.4
 |- Añadido el idioma catalán (solo para el catalogo y la pasarela de pago)
 
