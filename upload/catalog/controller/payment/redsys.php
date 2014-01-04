@@ -14,7 +14,7 @@ class ControllerPaymentRedsys extends Controller {
 		$this->data['currency'] = '978';
 		$this->currency->set('EUR');
 		$order_info = $this->model_checkout_order->getOrder($this->session->data['order_id']);
-		$this->data['amount'] =  str_replace(array('.', ',') , '', $this->currency->format($order_info['total'], FALSE, FALSE, FALSE));
+		$this->data['amount'] =  number_format(round($this->currency->format($order_info['total'], FALSE, FALSE, FALSE), 2), 2, '', '');
 		$this->data['transaction_type'] = 0;
 		
 		// Language
