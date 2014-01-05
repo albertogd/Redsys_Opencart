@@ -96,9 +96,9 @@ class ControllerPaymentRedsys extends Controller {
 		$this->load->model('checkout/order');
 		$this->currency->set('EUR');
 		$order_info = $this->model_checkout_order->getOrder($order_id);
-		$order_amount = $this->currency->format($order_info['total'], FALSE, FALSE, FALSE);
+		$order_amount = number_format(round($this->currency->format($order_info['total'], FALSE, FALSE, FALSE), 2), 2, '', '');
 		
-		if ($amount != str_replace(array('.', ','), '', $order_amount))
+		if ($amount != $order_amount)
 			return;
 				
 		// Check Signature
