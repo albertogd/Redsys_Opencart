@@ -1,4 +1,4 @@
-# Redsys Payment module for OpenCart 1.5.X #
+# Redsys Payment module for OpenCart #
 
 This is a free extension of Redsys Payment Gateway for Opencart.
 
@@ -7,7 +7,7 @@ If you have any problem or any suggestion, you can post it in opencart forum or 
 Thank you for using this extension
 
 ## Description ##
-Redsys Payment gateway for Opencart. It works with all spanish banks: La Caixa, BBVA, Bankia, Santander, Popular, Sabadell, Bankinter...
+Redsys Payment gateway for Opencart 1.5.X. It works with all spanish banks: La Caixa, BBVA, Bankia, Santander, Popular, Sabadell, Bankinter...
 
 ## Requirements ##
 

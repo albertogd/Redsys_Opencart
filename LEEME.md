@@ -1,4 +1,4 @@
-# Redsys Payment module for OpenCart 1.5.X #
+# Redsys Payment module for OpenCart #
 
 Esta es una extensión gratuita para Opencart.
 
@@ -8,7 +8,7 @@ Gracias por utilizar esta extensión.
 
 ## Descripción ##
 
-Pasarela de pago Redsys para Opencart. Válido para todos los bancos de España: La Caixa, BBVA, Bankia, Santander, Popular, Sabadell, Bankinter...
+Pasarela de pago Redsys para Opencart 1.5.X. Válido para todos los bancos de España: La Caixa, BBVA, Bankia, Santander, Popular, Sabadell, Bankinter...
 
 ## Requirements ##
 
