@@ -133,7 +133,7 @@ class ControllerPaymentRedsys extends Controller {
 		$error = isset($this->request->post['Ds_ErrorCode']) ? ($this->request->post['Ds_ErrorCode']) : $language->get('unknown');
 		
 		if($accepted) {	
-			$message_for_store_owner  = sprintf($language->get('payment_accepted'), $date, $hour, $order_amount, 'EUR', $authCode, $card_type, $country_card, $secure);
+			$message_for_store_owner  = sprintf($language->get('payment_accepted'), $date, $hour, $order_amount / 100, 'EUR', $authCode, $card_type, $country_card, $secure);
 		} else {
 			$message_for_store_owner  = sprintf($language->get('payment_denied'), $language->get('err_n_' . $response), $error);
 		}
